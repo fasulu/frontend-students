@@ -10,7 +10,6 @@ const AddStudent = ({ changeStudentAdded }) => {
         // console.log("sendStudent ça rentre, valeur studentName", studentName);
         const url = "https://students-konexio.herokuapp.com/students/"
 
-
         axios.post(url, {
             name: studentName
         })
@@ -20,7 +19,6 @@ const AddStudent = ({ changeStudentAdded }) => {
         
                 history.push("/studentAdded")
             })
-
 
     }
 

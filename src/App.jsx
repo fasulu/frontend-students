@@ -14,7 +14,6 @@ function App() {
       <div className="container">
         <h1>Students</h1>
 
-
         <Switch>
           <Route exact path="/" >
             <div className="row">
